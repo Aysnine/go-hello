@@ -16,4 +16,7 @@ func main() {
 
 	greeting2 := "hello var"
 	fmt.Println(greeting2)
+
+	greeting2 = "hello var other value"
+	fmt.Println(greeting2)
 }
