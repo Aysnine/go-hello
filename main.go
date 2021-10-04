@@ -8,5 +8,6 @@ import (
 
 func main() {
 	reusable.Calc()
+	reusable.Calc2()
 	fmt.Println("hello golang")
 }
