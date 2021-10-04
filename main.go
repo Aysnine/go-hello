@@ -19,4 +19,7 @@ func main() {
 
 	greeting2 = "hello var other value"
 	fmt.Println(greeting2)
+
+	var num1 int
+	fmt.Println("hello number", num1)
 }
