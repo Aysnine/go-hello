@@ -1,5 +1,9 @@
 package reusable
 
 func Calc2() int {
-	return 0;
+	if count < 5 {
+		count++
+		Calc()
+	}
+	return 0
 }
