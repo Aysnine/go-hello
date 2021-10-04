@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/Aysnine/go-hello/funcs"
 	"github.com/Aysnine/go-hello/reusable"
 )
 
@@ -22,4 +23,7 @@ func main() {
 
 	var num1 int
 	fmt.Println("hello number", num1)
+
+	card := funcs.NewCard()
+	fmt.Println(card)
 }
